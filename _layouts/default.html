@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html>
   {% include head.html %}
-  <body>
+  <body class="{% if page.url == '/' %}home{% else %} {{  page.url | remove:'/'  }} {% endif %}">
 
     {% include header.html %}
 
-    {{ content }}
+    <main>
+      {{ content }}
+    </main>
 
     {% include footer.html %}
 

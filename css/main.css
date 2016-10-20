@@ -1,0 +1,246 @@
+/** Montserrat */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Montserrat"), url("/fonts/Montserrat/Montserrat-Regular.woff2") format("woff2"), url("/fonts/Montserrat/Montserrat-Regular.woff") format("woff"), url("/fonts/Montserrat/Montserrat-Regular.ttf") format("ttf"), url("/fonts/Montserrat/Montserrat-Regular.eot") format("eot"); }
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Montserrat"), url("/fonts/Montserrat/Montserrat-Bold.woff2") format("woff2"), url("/fonts/Montserrat/Montserrat-Bold.woff") format("woff"), url("/fonts/Montserrat/Montserrat-Bold.ttf") format("ttf"), url("/fonts/Montserrat/Montserrat-Bold.eot") format("eot"); }
+/** PT Serif */
+@font-face {
+  font-family: 'PT Serif';
+  font-style: normal;
+  font-weight: 400;
+  src: local("PT Serif"), url("/fonts/PT_Serif/PT-Serif-regular.woff2") format("woff2"), url("/fonts/PT_Serif/PT-Serif-regular.woff") format("woff"), url("/fonts/PT_Serif/PT-Serif-regular.ttf") format("ttf"), url("/fonts/PT_Serif/PT-Serif-regular.eot") format("eot"); }
+@font-face {
+  font-family: 'PT Serif';
+  font-style: italic;
+  font-weight: 400;
+  src: local("PT Serif"), url("/fonts/PT_Serif/PT-Serif-italic.woff2") format("woff2"), url("/fonts/PT_Serif/PT-Serif-italic.woff") format("woff"), url("/fonts/PT_Serif/PT-Serif-italic.ttf") format("ttf"), url("/fonts/PT_Serif/PT-Serif-italic.eot") format("eot"); }
+@font-face {
+  font-family: 'PT Serif';
+  font-style: normal;
+  font-weight: 700;
+  src: local("PT Serif"), url("/fonts/PT_Serif/PT-Serif-700.woff2") format("woff2"), url("/fonts/PT_Serif/PT-Serif-700.woff") format("woff"), url("/fonts/PT_Serif/PT-Serif-700.ttf") format("ttf"), url("/fonts/PT_Serif/PT-Serif-700.eot") format("eot"); }
+@font-face {
+  font-family: 'PT Serif';
+  font-style: italic;
+  font-weight: 700;
+  src: local("PT Serif"), url("/fonts/PT_Serif/PT-Serif-700italic.woff2") format("woff2"), url("/fonts/PT_Serif/PT-Serif-700italic.woff") format("woff"), url("/fonts/PT_Serif/PT-Serif-700italic.ttf") format("ttf"), url("/fonts/PT_Serif/PT-Serif-700italic.eot") format("eot"); }
+* {
+  box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Serif', Georgia, serif;
+  line-height: 1.5;
+  background: #fafafa;
+  color: #010101; }
+
+a {
+  color: inherit; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  font-family: 'Montserrat', Arial, sans-serif; }
+
+.lead {
+  font-size: 18px; }
+
+h2 {
+  font-size: 27px; }
+
+h4 {
+  font-size: 21p; }
+
+h5 {
+  margin-bottom: 0;
+  font-size: 16px; }
+
+h5 + p {
+  margin-top: 0; }
+
+nav a {
+  font-family: 'Montserrat', Arial, sans-serif;
+  text-decoration: none;
+  font-size: 14px; }
+
+img {
+  display: block;
+  max-width: 100%;
+  width: 100%;
+  margin: 0 0 1em 0; }
+
+dl {
+  margin: 1em 0; }
+
+dl dt {
+  font-weight: bold; }
+
+dl dd {
+  margin-left: 21px; }
+
+figure {
+  margin: 0; }
+
+.logo {
+  color: #F93218;
+  font-size: 18px;
+  font-weight: normal; }
+
+.logo a {
+  text-decoration: none; }
+
+.site-navigation {
+  font-size: 14px; }
+
+.site-navigation a {
+  display: block;
+  margin: 6px 0; }
+
+.site-navigation a.active {
+  color: #F93218; }
+
+.site-navigation__seperator {
+  width: 30px;
+  height: 1px;
+  margin: 21px 0;
+  background-color: #D9D9D9; }
+
+.site-header .logo {
+  margin-bottom: 40px; }
+
+.home-banner {
+  margin: 0;
+  display: flex; }
+
+.home-banner img {
+  margin: 0;
+  width: 100%;
+  height: auto; }
+
+.home-banner > div:first-child {
+  margin-right: 10px; }
+
+.contact-information {
+  font-size: 12px;
+  font-family: Arial, sans-serif; }
+
+.google-maps {
+  margin-bottom: 1em;
+  height: 240px; }
+
+.google-maps iframe {
+  width: 100%;
+  height: auto;
+  max-height: 240px;
+  height: 100%;
+  border: 0;
+  margin: 0; }
+
+.site-wrapper {
+  display: flex;
+  max-width: 1100px;
+  width: 100%;
+  margin: 60px auto 0 auto;
+  padding: 0 70px; }
+
+.site-header {
+  min-width: 230px; }
+
+main {
+  margin-top: 94px; }
+
+.site-footer {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1100px;
+  width: 100%;
+  margin: 40px auto 0 auto;
+  padding: 0 70px; }
+
+.site-footer .troop-mark {
+  margin-left: auto; }
+
+.two-columns {
+  display: flex; }
+
+.two-columns > div {
+  width: 50%; }
+
+.two-columns > div:first-child {
+  margin-right: 20px; }
+
+@media (max-width: 800px) {
+  .two-columns {
+    display: block; }
+
+  .two-columns > div:first-child {
+    margin-right: 0; }
+
+  .two-columns > div {
+    width: 100%; } }
+@media (max-width: 520px) {
+  .site-wrapper {
+    display: block;
+    padding: 0;
+    margin-top: 30px; }
+
+  .site-header {
+    margin: 0 16px;
+    display: flex;
+    justify-content: space-between; }
+
+  .site-navigation {
+    text-align: right; }
+
+  .site-navigation a {
+    margin: 14px 0;
+    font-size: 16px; }
+
+  .site-navigation__seperator {
+    display: none; }
+
+  .site-header .logo {
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+
+  main {
+    margin-top: 30px; }
+
+  main p,
+  main h1,
+  main h2,
+  main h3,
+  main h4,
+  main h5,
+  main h6,
+  main dl {
+    margin-left: 16px;
+    margin-right: 16px; }
+
+  main h2 {
+    text-align: center; }
+
+  .site-footer {
+    display: block;
+    padding: 0 16px; }
+
+  .contact-information {
+    text-align: center; }
+
+  .troop-mark {
+    width: 100%;
+    display: block;
+    text-align: center; } }

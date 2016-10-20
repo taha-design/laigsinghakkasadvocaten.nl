@@ -11,3 +11,6 @@ Install octopress-minify-html gem
 
 Run `jekyll build` to build the site files.  
 Run `jekyll serve` to spin up a development server and watch files.
+
+### Force a push to gh-pages from master
+git push origin `git subtree split --prefix _site master`:gh-pages --force

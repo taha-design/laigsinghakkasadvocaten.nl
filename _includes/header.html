@@ -1,9 +1,13 @@
-<header>
-  <nav>
+<header class="site-header">
+  <h1 class="logo">
+    <a href="/">Laigsingh & Akkas<br> Advocaten Amsterdam</a>
+  </h1>
+  <nav class="site-navigation">
     <a class="page-link{% if page.url == '/' %} active{%endif%}" href="{{ '/' | prepend: site.baseurl }}">Home</a>
     <a class="page-link{% if page.url == '/wie-zijn-wij/' %} active{%endif%}" href="{{ '/wie-zijn-wij/' | prepend: site.baseurl }}">Wie zijn wij</a>
     <a class="page-link{% if page.url == '/wat-doen-wij/' %} active{%endif%}" href="{{ '/wat-doen-wij/' | prepend: site.baseurl }}">Wat doen wij</a>
     <a class="page-link{% if page.url == '/rechtszaken/' %} active{%endif%}" href="{{ '/rechtszaken/' | prepend: site.baseurl }}">Rechtszaken</a>
+    <div class="site-navigation__seperator"></div>
     <a class="page-link{% if page.url == '/contact/' %} active{%endif%}" href="{{ '/contact/' | prepend: site.baseurl }}">Contact</a>
   </nav>
 </header>

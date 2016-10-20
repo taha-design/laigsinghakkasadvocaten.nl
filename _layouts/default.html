@@ -2,14 +2,14 @@
 <html>
   {% include head.html %}
   <body class="{% if page.url == '/' %}home{% else %} {{  page.url | remove:'/'  }} {% endif %}">
+    <div class="site-wrapper">
+      {% include header.html %}
 
-    {% include header.html %}
-
-    <main>
-      {{ content }}
-    </main>
+      <main>
+        {{ content }}
+      </main>
+    </div>
 
     {% include footer.html %}
-
   </body>
 </html>

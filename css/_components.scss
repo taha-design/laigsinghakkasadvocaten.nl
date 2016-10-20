@@ -1,0 +1,64 @@
+.logo {
+  color: $primaryColor;
+  font-size: 18px;
+  font-weight: normal;
+}
+.logo a {
+  text-decoration: none;
+}
+
+.site-navigation {
+  font-size: 14px;
+}
+.site-navigation a {
+  display: block;
+  margin: 6px 0;
+}
+.site-navigation a.active {
+  color: $primaryColor;
+}
+.site-navigation__seperator {
+  width: 30px;
+  height: 1px;
+  margin: 21px 0;
+  background-color: #D9D9D9;
+}
+
+
+.site-header .logo {
+  margin-bottom: 40px;
+}
+
+
+.home-banner {
+  margin: 0;
+  display: flex;
+}
+
+.home-banner img {
+  margin: 0;
+  width: 100%;
+  height: auto;
+}
+.home-banner > div:first-child {
+  margin-right: 10px;
+}
+
+.contact-information {
+  font-size: 12px;
+  font-family: Arial, sans-serif;
+}
+
+.google-maps {
+  margin-bottom: 1em;
+  height: 240px;
+}
+
+.google-maps iframe {
+  width: 100%;
+  height: auto;
+  max-height: 240px;
+  height: 100%;
+  border: 0;
+  margin: 0;
+}

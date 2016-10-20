@@ -5,14 +5,14 @@
 html, body {
     margin: 0;
     padding: 0;
-    background: #fafafa;
     font-family: 'PT Serif', Georgia, serif;
+    line-height: 1.5;
+    background: #fafafa;
     color: #010101;
 }
 
-body {
-    display: flex;
-    flex-direction: column;
+a {
+  color: inherit;
 }
 
 h1,
@@ -21,16 +21,55 @@ h3,
 h4,
 h5,
 h6 {
+  margin-top: 0;
   font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.lead {
+  font-size: 18px;
+}
+
+h2 {
+  font-size: 27px;
+}
+
+h4 {
+  font-size: 21p;
+}
+
+h5 {
+  margin-bottom: 0;
+  font-size: 16px;
+}
+
+h5 + p {
+  margin-top: 0;
 }
 
 nav a {
   font-family: 'Montserrat', Arial, sans-serif;
+  text-decoration: none;
+  font-size: 14px;
 }
 
-.main {
-    flex: 1;
-    padding: 16px;
-    position: relative;
-    z-index: 0;
+img {
+  display: block;
+  max-width: 100%;
+  width: 100%;
+  margin: 0 0 1em 0;
+}
+
+dl {
+  margin: 1em 0;
+}
+
+dl dt {
+  font-weight: bold;
+}
+dl dd {
+  margin-left: 21px;
+}
+
+figure {
+  margin: 0;
 }

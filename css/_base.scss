@@ -5,13 +5,27 @@
 html, body {
     margin: 0;
     padding: 0;
-    background: #FAFAFA;
-    font-family: 'Roboto', Arial, sans-serif;
+    background: #fafafa;
+    font-family: 'PT Serif', Georgia, serif;
+    color: #010101;
 }
 
 body {
     display: flex;
     flex-direction: column;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+nav a {
+  font-family: 'Montserrat', Arial, sans-serif;
 }
 
 .main {

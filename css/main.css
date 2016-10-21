@@ -157,7 +157,8 @@ figure {
   min-width: 230px; }
 
 main {
-  margin-top: 94px; }
+  margin-top: 94px;
+  flex: 1; }
 
 .site-footer {
   display: flex;

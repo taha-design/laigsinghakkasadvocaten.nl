@@ -92,6 +92,40 @@ dl dd {
 figure {
   margin: 0; }
 
+.loading-bar {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 3px;
+  will-change: transform;
+  transition: transform 0.3s;
+  transform: translateY(0%); }
+
+.loading-bar.hide {
+  transform: translateY(-100%); }
+
+.loading-bar:after {
+  content: '';
+  display: block;
+  background-color: #F93218;
+  width: 100vw;
+  height: 100%;
+  will-change: transform;
+  transform: translateX(-100%); }
+
+.loading-bar.animate:after {
+  animation-name: loading;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; }
+
+@keyframes loading {
+  0% {
+    transform: translateX(-110%); }
+  100% {
+    transform: translateX(110%); } }
 .logo {
   color: #F93218;
   font-size: 18px;
@@ -190,6 +224,9 @@ main {
   .two-columns > div {
     width: 100%; } }
 @media (max-width: 520px) {
+  .loading-bar {
+    height: 5px; }
+
   .site-wrapper {
     display: block;
     padding: 0;

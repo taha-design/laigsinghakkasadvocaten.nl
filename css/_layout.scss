@@ -51,6 +51,9 @@ main {
 }
 
 @media (max-width: 520px) {
+  .loading-bar {
+    height: 5px;
+  }
   .site-wrapper {
     display: block;
     padding: 0;

@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="nl">
   {% include head.html %}
-  <body class="{% if page.url == '/' %}home{% else %} {{  page.url | remove:'/'  }} {% endif %}">
+  <body>
+    <div class="loading-bar"></div>
     <div class="site-wrapper">
       {% include header.html %}
 
-      <main>
+      <main class="{% if page.url == '/' %}home{% else %} {{  page.url | remove:'/'  }}{% endif %}">
         {{ content }}
       </main>
     </div>
 
     {% include footer.html %}
+    <script src="{{ "/scripts/router.js" | prepend: site.baseurl }}"></script>
   </body>
 </html>

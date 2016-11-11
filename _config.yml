@@ -13,5 +13,6 @@ gems:
 
 sass:
     sass_dir: css
+    style: compressed
 
 minify_html: true

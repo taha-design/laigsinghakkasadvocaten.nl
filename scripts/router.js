@@ -82,6 +82,7 @@
       // Add the view to the page.
       setActivePageLink(url);
       setPageClass();
+      document.title = activeLink.innerHTML;
       currentView.appendChild(view);
 
       // Clear loading timer

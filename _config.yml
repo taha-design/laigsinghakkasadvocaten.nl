@@ -2,7 +2,7 @@
 title: Laigsingh en Akkas Advocaten Amsterdam Osdorp
 description: > # this means to ignore newlines until "baseurl:"
   Laigsingh en Akkas, twee ervaren advocaten gevestigd in Amsterdam Osdorp. Het eerste gesprek van maximaal 30 minuten is gratis.
-baseurl: "/laigsinghakkasadvocaten.nl" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://laigsinghakkasadvocaten.nl" # the base hostname & protocol for your site
 
 # Build settings
